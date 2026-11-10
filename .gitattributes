@@ -4,3 +4,7 @@
 *.json text eol=lf
 *.csv text eol=lf
 *.png binary
+
+# Preserve provenance hashes on Windows and other checkout platforms.
+/data/** -text
+/reference_results/** -text
