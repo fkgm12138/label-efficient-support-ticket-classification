@@ -45,7 +45,7 @@
     "unknown path rejected with404",
     "non-empty output directory rejected",
     "browser UI inspected for metrics and single-intent result",
-    "Git checkout byte-preservation rule added for data and reference_results after Windows newline-conversion failure"
+    "Git checkout preserves exact bytes for every tracked file, including source licence, datasets and reference JSON/CSV"
   ],
   "limits": [
     "Windows/Python3.12 only tested",

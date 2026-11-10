@@ -2,8 +2,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 210,
-      "sha256": "842bd5cd942e98d87a08e6c819ab10f545b85f181c2aaacf53f1c0c1e2c400d6"
+      "bytes": 95,
+      "sha256": "bf7fe8868e6ed8262ea95f0a158ce417ff71b9d9adb2b3f29f48573b6fa0158d"
     },
     {
       "path": ".gitignore",
@@ -102,8 +102,8 @@
     },
     {
       "path": "evidence/release-validation.json",
-      "bytes": 1918,
-      "sha256": "728d4c6213db27581f62a0c805479db18d3e78d1437d8dcfd91d6750d398d34c"
+      "bytes": 1865,
+      "sha256": "0aec40d2e9a18a641ac55bfa99ad98065b969b4df5e65880d47be889ccc98727"
     },
     {
       "path": "README.md",
