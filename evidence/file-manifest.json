@@ -67,8 +67,8 @@
     },
     {
       "path": "demo/index.html",
-      "bytes": 6008,
-      "sha256": "d66e933f419863fdd68480a5ff222e9d0f47c0894031544ac17681b4dfc5a6bf"
+      "bytes": 28387,
+      "sha256": "2ebc1e5a25dccbb9094f2dd21e24bae5beb5257203827b13a0f195856b3eaa70"
     },
     {
       "path": "demo.py",
@@ -82,8 +82,8 @@
     },
     {
       "path": "docs/DEMO_zh.md",
-      "bytes": 7128,
-      "sha256": "01efb29e2d989ae23606e540acc96260d60f3e9e284ba5a807047d655e1cff83"
+      "bytes": 7694,
+      "sha256": "44c231061e62d04e991502892ac31db079c1dc6635e70786866f7c74cc722d0e"
     },
     {
       "path": "docs/METHODS.md",
@@ -284,6 +284,11 @@
       "path": "verify_results.py",
       "bytes": 3970,
       "sha256": "5fad14c4f063a2bbf742f73464307b3ee1acc3b7997febd84052986e157c06a6"
+    },
+    {
+      "path": "evidence/demo-usability-validation.json",
+      "bytes": 1058,
+      "sha256": "885cdc8f94497d40a4b52c309d62525ad60af89bb9fe90b2fc3849c07803051d"
     }
   ],
   "note": "Excludes this manifest itself; .venv, outputs, caches and private project materials are not uploaded."

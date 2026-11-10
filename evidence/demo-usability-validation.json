@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-10",
+  "scope": "presentation and interaction only; model, prediction API and experiment protocol unchanged",
+  "chinese_intent_names": 77,
+  "checks": [
+    "all77 original intent IDs have Chinese display names",
+    "live browser: singleton suggestion displays Chinese category",
+    "live browser: vague example shows5 candidates and human-confirmation suggestion",
+    "live browser: selecting another example clears previous prediction",
+    "live browser: edited input clears previous result",
+    "live browser: Chinese input gets a truthful English-model notice",
+    "live browser: empty input prompts user to enter a question",
+    "live browser: validation counts1272/1344/643 shown with denominator1499",
+    "HTTP smoke check passed for3 examples, empty input and unknown path"
+  ],
+  "limitations": [
+    "Chinese label descriptions do not translate user input",
+    "Chinese descriptions are for presentation; original dataset labels unchanged",
+    "demo still uses full-pool model, with no real department routing"
+  ]
+}
