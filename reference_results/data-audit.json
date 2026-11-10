@@ -1,0 +1,17 @@
+{
+  "raw_train": 10003,
+  "official_test": 3080,
+  "classes": 77,
+  "invalid_train_rows": 0,
+  "duplicate_train_rows_normalized": 4,
+  "conflicting_train_texts": 0,
+  "train_test_shared_texts": 7,
+  "clean_train": 9992,
+  "pool": 6994,
+  "validation": 1499,
+  "calibration": 1499,
+  "test_evaluation": "not performed; only text overlap audited",
+  "near_duplicate_audit": "not yet performed",
+  "normalization": "NFKC + casefold + whitespace collapse",
+  "split_seed": 20261027
+}

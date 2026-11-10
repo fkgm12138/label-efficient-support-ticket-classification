@@ -1,0 +1,13 @@
+.venv/
+.tmp/
+.cache/
+__pycache__/
+*.py[cod]
+outputs/
+logs/
+wheelhouse/
+*.joblib
+.env
+.env.*
+*.key
+*.pem

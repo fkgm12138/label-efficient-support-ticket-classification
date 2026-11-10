@@ -1,0 +1,28 @@
+{
+  "seeds": [
+    17,
+    29,
+    43,
+    53,
+    71
+  ],
+  "budgets": [
+    308,
+    616,
+    1232,
+    2464
+  ],
+  "initial_selection": "uniform random; shared by both arms within seed",
+  "query_batch_sizes": [
+    308,
+    616,
+    1232
+  ],
+  "features": "TF-IDF (1,2), min_df=2, sublinear_tf=True, max_features=20000; refitted on observed labels/text only at each step",
+  "classifier": "LogisticRegression C=1 max_iter=1000",
+  "query": "scikit-activeml uncertainty_scores margin_sampling; random tie-breaking",
+  "evaluation": "single fixed validation split; no official test metrics",
+  "annotation_cost": "budgets count training labels only; validation and calibration have additional fixed labels",
+  "scope": "offline pool-based simulation, not a human annotation study",
+  "source_sha256": "2f11d65a417b4e127cbe290857c7ea4d29944ceaae6e70fdfa9095ad0c3517b8"
+}

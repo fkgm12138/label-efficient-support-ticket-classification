@@ -1,0 +1,11 @@
+{
+  "python": "3.12.7",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "scikit-activeml": "1.0.1",
+    "mapie": "1.6.0",
+    "cleanlab": "2.9.0"
+  }
+}

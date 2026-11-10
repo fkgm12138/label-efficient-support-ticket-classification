@@ -1,0 +1,51 @@
+text,category,row_id,norm,split,oof_prediction,given_label_probability,human_decision
+Is there an alternative to a physical card?,getting_virtual_card,train:3092,is there an alternative to a physical card?,pool,order_physical_card,0.005901951608840801,pending
+I can't find the money I just added to my account.,pending_top_up,train:1963,i can't find the money i just added to my account.,pool,transfer_into_account,0.007504399175044892,pending
+Can you tell me the status of my new card?,lost_or_stolen_card,train:1490,can you tell me the status of my new card?,pool,card_arrival,0.0075161435345720284,pending
+I was removing a dollar amount from my account and now don't have access to my card.,card_swallowed,train:6275,i was removing a dollar amount from my account and now don't have access to my card.,pool,reverted_card_payment?,0.0077273728060971904,pending
+"I thought I left my card at a restaurant, but they claim not to have it and now I don't have any idea where it is. I'm so worried that someone might be using it fraudulently. Is there any way to look into this?",lost_or_stolen_card,train:1497,"i thought i left my card at a restaurant, but they claim not to have it and now i don't have any idea where it is. i'm so worried that someone might be using it fraudulently. is there any way to look into this?",pool,compromised_card,0.007865458725714054,pending
+Someone else charged my card!,direct_debit_payment_not_recognised,train:4707,someone else charged my card!,pool,compromised_card,0.008145875538045369,pending
+i put money on my card and i dont see it on the balance,pending_top_up,train:1931,i put money on my card and i dont see it on the balance,pool,balance_not_updated_after_cheque_or_cash_deposit,0.009269227307629753,pending
+why do I have to show my ID,verify_my_identity,train:9816,why do i have to show my id,pool,unable_to_verify_identity,0.012140162701337557,pending
+It does not appear that my message went through.,top_up_failed,train:8565,it does not appear that my message went through.,pool,beneficiary_not_allowed,0.012402163758810465,pending
+What's the phone number to freeze a card?,lost_or_stolen_card,train:1481,what's the phone number to freeze a card?,pool,lost_or_stolen_phone,0.012741581163095664,pending
+"Even though I added money ey to the card, I couldn't use it",pending_top_up,train:2045,"even though i added money ey to the card, i couldn't use it",pool,card_not_working,0.012783967567764572,pending
+What transfer methods do you accept?,transfer_into_account,train:7616,what transfer methods do you accept?,pool,supported_cards_and_currencies,0.012876903504064535,pending
+"Is it possible to go ahead and log in, although I have not been confirmed yet?",why_verify_identity,train:3845,"is it possible to go ahead and log in, although i have not been confirmed yet?",pool,transfer_not_received_by_recipient,0.012940564182767825,pending
+How do I top up?,transfer_into_account,train:7583,how do i top up?,pool,top_up_by_cash_or_cheque,0.013285752289518874,pending
+Should I order a new card before I freeze my original one?,compromised_card,train:4485,should i order a new card before i freeze my original one?,pool,card_about_to_expire,0.013488837149293205,pending
+When will the transaction post to my account?,pending_transfer,train:5999,when will the transaction post to my account?,pool,transfer_not_received_by_recipient,0.014601129407389795,pending
+What do I need to bring for identification?,unable_to_verify_identity,train:3993,what do i need to bring for identification?,pool,verify_my_identity,0.014794095377419639,pending
+Someone took my card without my permission.,lost_or_stolen_card,train:1542,someone took my card without my permission.,pool,compromised_card,0.01500982380062257,pending
+What credit cards do you carry,visa_or_mastercard,train:4126,what credit cards do you carry,pool,supported_cards_and_currencies,0.015064278674306868,pending
+Why can't I topup my account?,top_up_failed,train:8529,why can't i topup my account?,pool,beneficiary_not_allowed,0.01605404439122102,pending
+I couldnt transfer money from my account.,failed_transfer,train:7504,i couldnt transfer money from my account.,pool,transfer_into_account,0.01628214446935904,pending
+My transfer is pending too long.,balance_not_updated_after_bank_transfer,train:8726,my transfer is pending too long.,pool,pending_transfer,0.01632631861037099,pending
+My money hasn't been deposited yet. When will it be?,pending_top_up,train:1997,my money hasn't been deposited yet. when will it be?,pool,balance_not_updated_after_cheque_or_cash_deposit,0.017002010804907697,pending
+How do I order a replacement for stolen card?,compromised_card,train:4532,how do i order a replacement for stolen card?,pool,order_physical_card,0.018456069016797454,pending
+What cards do you offer?,visa_or_mastercard,train:4151,what cards do you offer?,pool,supported_cards_and_currencies,0.019021806325736978,pending
+How do I prove I am who I am?,verify_my_identity,train:9778,how do i prove i am who i am?,pool,unable_to_verify_identity,0.0198297625293228,pending
+Why does is payment not going through? Did my account get frozen or some other issue I don't know about. What can I do to fix this problem?,declined_card_payment,train:5919,why does is payment not going through? did my account get frozen or some other issue i don't know about. what can i do to fix this problem?,pool,card_payment_not_recognised,0.02015608873309651,pending
+Where can I do a cash withdrawal?,atm_support,train:4569,where can i do a cash withdrawal?,pool,pending_cash_withdrawal,0.02036424040809276,pending
+Will my card work at all merchant locations?,card_acceptance,train:3144,will my card work at all merchant locations?,pool,card_not_working,0.020730499440316224,pending
+What proof of identification is needed?,verify_my_identity,train:9791,what proof of identification is needed?,pool,wrong_amount_of_cash_received,0.021280790458775973,pending
+Can we skip verifying?,why_verify_identity,train:3873,can we skip verifying?,pool,unable_to_verify_identity,0.021298325154035125,pending
+Is there a way to find an ATM around me?,atm_support,train:4572,is there a way to find an atm around me?,pool,cash_withdrawal_charge,0.021354446105900923,pending
+What reasons would a topup fail?,top_up_failed,train:8501,what reasons would a topup fail?,pool,top_up_reverted,0.021916424370714414,pending
+Do you accept cheques for top ups?,top_up_by_cash_or_cheque,train:8046,do you accept cheques for top ups?,pool,supported_cards_and_currencies,0.022185598934038448,pending
+Problem verifying my account,unable_to_verify_identity,train:3952,problem verifying my account,pool,terminate_account,0.022223980177345542,pending
+How long after a failed topup will funds refurn to account,pending_top_up,train:1999,how long after a failed topup will funds refurn to account,pool,transfer_timing,0.022405885569316317,pending
+My accounts been charged a payment for something I didn't make.,direct_debit_payment_not_recognised,train:4800,my accounts been charged a payment for something i didn't make.,pool,card_payment_not_recognised,0.022845084773449237,pending
+Can you please advise if there is something wrong with my card? I have had multiple rejections and do not know the reason. Thanks!,declined_card_payment,train:5979,can you please advise if there is something wrong with my card? i have had multiple rejections and do not know the reason. thanks!,pool,card_payment_not_recognised,0.022860477631135197,pending
+How long do cheques take to post to your account?,balance_not_updated_after_cheque_or_cash_deposit,train:3436,how long do cheques take to post to your account?,pool,transfer_timing,0.023544903640458848,pending
+I can't do the verification.,why_verify_identity,train:3843,i can't do the verification.,pool,verify_top_up,0.023573102414744355,pending
+I might need a new card because it's not working at any of the ATMs. I don't think ive used all my money. Why is it doing this?,declined_cash_withdrawal,train:5077,i might need a new card because it's not working at any of the atms. i don't think ive used all my money. why is it doing this?,pool,card_not_working,0.024331013444459777,pending
+How can I top up my card with another card?,supported_cards_and_currencies,train:2880,how can i top up my card with another card?,pool,topping_up_by_card,0.024578676185850412,pending
+How long do deposits take to appear? I've been waiting for more than a week and need the money!,balance_not_updated_after_cheque_or_cash_deposit,train:3443,how long do deposits take to appear? i've been waiting for more than a week and need the money!,pool,transfer_not_received_by_recipient,0.02462096370605623,pending
+I cant transfer money into my account,beneficiary_not_allowed,train:7108,i cant transfer money into my account,pool,transfer_into_account,0.024630372974579155,pending
+Somebody stole my wallet and is using my card! Can you do something so they can't keep taking my money?,cash_withdrawal_not_recognised,train:8809,somebody stole my wallet and is using my card! can you do something so they can't keep taking my money?,pool,compromised_card,0.024927709579845515,pending
+Where is my money that I transfered?!,balance_not_updated_after_bank_transfer,train:8649,where is my money that i transfered?!,pool,verify_source_of_funds,0.025334666917757383,pending
+What can I expect at card expiration?,card_about_to_expire,train:9593,what can i expect at card expiration?,pool,card_delivery_estimate,0.025913915206613618,pending
+What currencies can I use to top up my account?,transfer_into_account,train:7623,what currencies can i use to top up my account?,pool,supported_cards_and_currencies,0.026041100858185406,pending
+Why is the transaction not posting?,pending_transfer,train:6110,why is the transaction not posting?,pool,transfer_not_received_by_recipient,0.026508182817787905,pending
+I was unable to transfer money from my account.,failed_transfer,train:7446,i was unable to transfer money from my account.,pool,transfer_into_account,0.02654094192993962,pending

@@ -1,0 +1,56 @@
+{
+  "validated_at": "2026-11-10",
+  "platform": "Windows x64",
+  "python": "3.12.7",
+  "fresh_environment": true,
+  "installation": "29 pinned packages installed from existing local wheelhouse; pip check passed; online PyPI installation not exercised",
+  "full_run": {
+    "status": "passed",
+    "mode": "full",
+    "started": "2026-11-10T11:21:51.107137",
+    "steps": [
+      {
+        "script": "run_pilot.py",
+        "exit_code": 0
+      },
+      {
+        "script": "analyze_pilot.py",
+        "exit_code": 0
+      }
+    ],
+    "elapsed_seconds": 34.58
+  },
+  "baseline_demo_run": {
+    "status": "passed",
+    "mode": "baseline",
+    "started": "2026-11-10T11:22:39.508778",
+    "steps": [
+      {
+        "script": "run_pilot.py",
+        "exit_code": 0
+      }
+    ],
+    "elapsed_seconds": 6.02
+  },
+  "comparison": "baseline/conformal/data/Cleanlab JSON values, all40 acquisition score records, paired differences,1499 predictions,review queue and selection IDs exactly match saved reference results",
+  "checks": [
+    "Python syntax compilation",
+    "reference evidence consistency",
+    "full pilot with40 acquisition fits and5-fold label audit",
+    "fresh conformal metrics recomputed",
+    "separate baseline-only mode",
+    "HTTP page and metrics endpoint",
+    "three illustrative prediction inputs",
+    "empty text rejected with400",
+    "unknown path rejected with404",
+    "non-empty output directory rejected",
+    "browser UI inspected for metrics and single-intent result"
+  ],
+  "limits": [
+    "Windows/Python3.12 only tested",
+    "online dependency availability not tested",
+    "no official test scoring",
+    "no production department routing",
+    "low-budget acquisition and referral not integrated"
+  ]
+}

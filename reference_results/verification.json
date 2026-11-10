@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "40 planned active-learning fits present",
+    "paired arms share initial metric per seed",
+    "all selected IDs belong only to training pool",
+    "selection nested, unique and budget-correct",
+    "split overlap assertions passed during pilot",
+    "convergence warnings treated as errors during pilot"
+  ],
+  "limitations": [
+    "no near-duplicate semantic audit",
+    "one split only",
+    "no official test evaluation"
+  ]
+}

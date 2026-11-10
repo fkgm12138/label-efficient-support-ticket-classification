@@ -1,0 +1,12 @@
+{
+  "confidence_level": 0.9,
+  "empirical_validation_coverage": 0.8965977318212142,
+  "mean_set_size": 1.5023348899266178,
+  "singleton_rate": 0.57104736490994,
+  "singleton_error_rate": 0.056074766355140186,
+  "empty_set_rate": 0.0466977985323549,
+  "review_rate": 0.42895263509006004,
+  "minimum_class_coverage": 0.2,
+  "calibration_n": 1499,
+  "validation_n": 1499
+}

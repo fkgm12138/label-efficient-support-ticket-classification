@@ -1,0 +1,10 @@
+{
+  "folds": 5,
+  "training_pool_n": 6994,
+  "flagged_candidates": 322,
+  "exported_for_review": 50,
+  "confirmed_label_errors": null,
+  "labels_modified": 0,
+  "purpose": "diagnostic ranking only; low scores can reflect weak classifier or ambiguity",
+  "uses": "pool only; validation/calibration/test excluded"
+}

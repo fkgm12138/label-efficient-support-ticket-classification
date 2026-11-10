@@ -1,0 +1,13 @@
+{
+  "tfidf_logistic_regression": {
+    "accuracy": 0.8485657104736491,
+    "macro_f1": 0.8387990495120554
+  },
+  "most_frequent": {
+    "accuracy": 0.018679119412941963,
+    "macro_f1": 0.000476275525391439
+  },
+  "evaluation_split": "validation",
+  "n_training": 6994,
+  "features": 8096
+}

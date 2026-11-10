@@ -1,0 +1,23 @@
+text,category,row_id,norm
+"
+I can't seem to be able to use my card
+
+
+",card_not_working,train:1290,i can't seem to be able to use my card
+"
+How do I unblock my PIN?",pin_blocked,train:1722,how do i unblock my pin?
+I put the wrong pin too many times and now it is blocked. Can you help me unblock it?,pin_blocked,train:1724,i put the wrong pin too many times and now it is blocked. can you help me unblock it?
+What businesses accept this card?,card_acceptance,train:3103,what businesses accept this card?
+"
+Where can I use my card?",card_acceptance,train:3116,where can i use my card?
+"There are a few transaction that I don't recognize, I think someone managed to get my card details and use it.
+",compromised_card,train:4476,"there are a few transaction that i don't recognize, i think someone managed to get my card details and use it."
+"
+At which ATMs can I use this card?",atm_support,train:4576,at which atms can i use this card?
+"
+Where can I withdraw money from?",atm_support,train:4595,where can i withdraw money from?
+"
+Do I need to go to a physical bank to change my PIN?",change_pin,train:6965,do i need to go to a physical bank to change my pin?
+"
+Which cash machines will allow me to change my PIN?",change_pin,train:6984,which cash machines will allow me to change my pin?
+I don't live in the UK. Can I still get a card?,country_support,train:9921,i don't live in the uk. can i still get a card?
