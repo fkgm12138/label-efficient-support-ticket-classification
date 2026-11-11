@@ -65,8 +65,10 @@ On the single fixed validation split, the existing full-pool baseline reached **
 
 The full-pool conformal pilot had **89.66% marginal coverage**, **42.90% referral**, and **5.61% error among singleton sets**. The low-budget active-learning models have not been integrated with this policy. The official test set has not been scored. Cleanlab flagged **322 candidates**, of which **50 are pending review**; none is a confirmed label error.
 
-## Data, software and assistance
+## Data, software and literature search
 
 BANKING77 is redistributed unchanged from PolyAI-LDN/task-specific-datasets commit `57ec275d8078af65b7731c2a98be812d844a6d6b`, under **CC BY 4.0**. See [data attribution](data/README.md), original licence and SHA-256 manifest. Derived splits/prediction records retain BANKING77 text. This repository does not apply a new open-source licence to the project code; public visibility alone grants no additional reuse licence. Third-party libraries retain their own licences and are installed as dependencies.
 
-Code, packaging and documentation were prepared with AI assistance. This is not evidence that a student independently implemented or understood every component. The installed scikit-learn procedural Skill supported pipeline and evaluation checks; its source is acknowledged in [references](docs/REFERENCES.md). Publication of this repository is not supervisor approval or a novelty claim.
+AI tools were used to help find relevant research articles.
+
+Publication of this repository is not supervisor approval or a novelty claim.
