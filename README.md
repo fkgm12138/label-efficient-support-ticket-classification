@@ -1,10 +1,14 @@
 # Label-Efficient Customer Support Ticket Classification with Artificial Intelligence
 
-Reproducible, CPU-based research experiments on **BANKING77**: TF-IDF + logistic regression, pool-based active learning with **scikit-activeml**, split conformal prediction with **MAPIE**, and training-label diagnostics with **Cleanlab**.
+Reproducible CPU baseline experiments on **BANKING77**: TF-IDF + logistic regression, pool-based active learning with **scikit-activeml**, split conformal prediction with **MAPIE**, and training-label diagnostics with **Cleanlab**.
 
 **中文使用说明：[安装与演示手册](docs/DEMO_zh.md) · [代码逐项说明](docs/CODE_MAP_zh.md) · [实验方法](docs/METHODS.md) · [结果与局限](docs/RESULTS.md)**
 
-This repository contains research code and a local illustrative interface. The current experiments classify banking intents. Deployment routing to real service departments is outside the implemented scope. No external AI API or GPU is required.
+This repository contains research code and a local illustrative interface. The current experiments classify banking intents. Deployment routing to real service departments is outside the implemented scope. The TF-IDF baseline and web demo run on CPU without an external AI API.
+
+## BERT experiment results
+
+The [10 November 2026 BERT comparison](experiments/bert-2026-11-10/README.md) compares fine-tuned BERT with TF-IDF + logistic regression on the same BANKING77 validation split. It includes the full-pool results, four training-label budgets, the simulated referral metrics and the BERT training configuration.
 
 ## Quick start (Windows PowerShell, Python 3.12 x64)
 
@@ -50,9 +54,10 @@ The browser demo and CLI load only locally generated model files. Do not load un
 - `data/raw/`: source data, original README and CC BY 4.0 licence.
 - `data/processed/split-manifest.csv`: fixed reference partition, not a second dataset.
 - `reference_results/`: historical pilot evidence, including all 40 scores, query IDs and review queue; trained models are regenerated locally.
+- `experiments/bert-2026-11-10/`: saved BERT and TF-IDF comparison results from the separate GPU experiment.
 - `tests/`: demo-contract and HTTP integration checks.
 - `docs/`: demonstration script, methods, evidence boundaries and file guide.
-- `evidence/`: release validation and file hashes.
+- `evidence/`: validation and file hashes from the original pilot release.
 
 ## Evidence boundary
 

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "training_jobs_verified": 41,
+  "checks": [
+    "source and saved splits identical",
+    "baseline accuracy and macro-F1 independently recalculated",
+    "saved MAPIE model reproduces prediction sets",
+    "all saved checkpoint hashes and class orders verified",
+    "40 active-learning records; 35 unique AL training jobs",
+    "random selections identical to original TF-IDF experiment",
+    "paired arms share initial data and model checkpoint",
+    "active-learning selections nested and training-pool-only",
+    "every OOF prediction excludes its row from the corresponding training fold",
+    "five OOF folds cover each pool row exactly once",
+    "label-review records pending; no labels modified",
+    "fresh checkpoint inference agrees on five fixed validation examples"
+  ],
+  "fresh_reload_max_absolute_probability_difference": 0.0004071332514286041,
+  "limitations": [
+    "not a second independent training replication",
+    "same fixed split; no official test evaluation",
+    "full-pool conformal calibration only; no low-budget policy comparison"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "bert": {
+    "accuracy": 0.9092728485657104,
+    "macro_f1": 0.9034518917874383
+  },
+  "evaluation_split": "validation",
+  "n_training": 6994,
+  "training_seconds": 147.49862140000005,
+  "official_test_evaluated": false
+}

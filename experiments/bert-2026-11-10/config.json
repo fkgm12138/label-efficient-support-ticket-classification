@@ -1,0 +1,39 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "pretrained_weight_sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3",
+  "model_seed": 20261027,
+  "epochs": 5,
+  "batch_size": 16,
+  "gradient_accumulation": 2,
+  "effective_batch_size": 32,
+  "max_length": 128,
+  "learning_rate": 4e-05,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "max_grad_norm": 1.0,
+  "precision": "torch.bfloat16",
+  "all_encoder_layers_trainable": true,
+  "checkpoint_selection": "fixed final epoch; no validation early stopping or tuning",
+  "active_learning_initialization": "fresh pretrained encoder and head at each budget",
+  "unseen_training_classes": "excluded from head; exported probabilities zero for missing classes",
+  "split_manifest_sha256": "7213bcbbf52f00eac7ac9c096997b9c5e18e094461e411f7beaa434751ca16b2",
+  "training_pool": 6994,
+  "validation": 1499,
+  "calibration": 1499,
+  "official_test_evaluated": false,
+  "active_learning_seeds": [
+    17,
+    29,
+    43,
+    53,
+    71
+  ],
+  "budgets": [
+    308,
+    616,
+    1232,
+    2464
+  ],
+  "scope": "one fixed split; offline label-revelation simulation; not annotation time measurement"
+}
